@@ -103,7 +103,7 @@ const Home = () => {
         if (message.includes("Not authorized")) {
           setErrorModalTitle("Not authorized to create a new space");
           setErrorModalMessage(
-            "Make sure MUX_TOKEN_ID and MUX_TOKEN_SECRET are set. Refer to the README in https://github.com/muxinc/meet for more details."
+            "Make sure MUX_TOKEN_ID and MUX_TOKEN_SECRET are set. Refer to the README in https://github.com/SrivatsaMG/mux-meet for more details."
           );
           onErrorModalOpen();
         } else if (message.includes("Maximum active spaces reached")) {
